@@ -5,15 +5,15 @@ Este é o repositório do código-fonte de um projeto ReactJS que consome a API 
 ## Visão Geral
 
 Este projeto foi desenvolvido com o objetivo de fornecer uma aplicação web onde os usuários possam explorar diversas receitas de comida, visualizando detalhes como ingredientes, instruções de preparo e imagens das refeições.
+O projeto está disponível na Vercel no seguinte link: https://cafeteria-santoss.vercel.app/
+
+
 
 ## Tecnologias Utilizadas
 
 O projeto foi construído utilizando as seguintes tecnologias:
 
 - **ReactJS**
-- **JavaScript**
-- **HTML5**
-- **CSS3**
 
 ## Recursos
 
