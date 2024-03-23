@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=IBM+Plex+Sans:wght@100;500&display=swap');
+
+:root {
+  --marromClaro: #bf7e3d;
+  --bege: #edbc86;
+  --marrom: #854404;
+  --marromMedio: #ab7851;
+  --marromEscuro: #342417;
+  --azul: #b7dae0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Dancing Script', cursive;
+}
+
+.container-api {
+  /* Adicione estilos para o container-api, por exemplo, defina a largura desejada */
+  width: 100%;
+}
+
+.container-api-results {
+  /* Adicione estilos específicos para os resultados da API */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* Adicione estilos adicionais conforme necessário */
+}
+
+h1 {
+  text-align: center;
+  font-size: 3.5em;
+  color: var(--marrom);
+}
+
+h2 {
+  text-align: center;
+  font-size: 28pt;
+  color: #905f37;
+}
+
+.container-botao {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background-color: var(--marrom);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1em;
+  font-family: 'Dancing Script', cursive;
+  cursor: pointer;
+  width: 30%;
+  font-size: 16pt;
+}
+
+.container-bebidas {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.75em;
+  justify-content: center;
+}
+
+.item-bebida {
+  width: 20%;
+  margin: 1.875em;
+  text-align: center;
+}
+
+.container-bebidas img {
+  width: 100%;
+  height: 65%;
+  border-radius: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.container-bebidas img:hover {
+  cursor: pointer;
+  box-shadow: 0 0 0.9375em;
+}
+
+.container-doces {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.75em;
+  justify-content: center;
+}
+
+.doce-item {
+  width: 20%;
+  margin: 1.875em;
+  text-align: center;
+}
+
+.container-doces img {
+  width: 100%;
+  height: 65%;
+  border-radius: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.container-doces img:hover {
+  cursor: pointer;
+  box-shadow: 0 0 0.9375em;
+}
+
+.container-contato {
+  width: 100%;
+  background-color: #905f37;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contato-item {
+  width: 20%;
+  margin: 2.5em;
+  text-align: center;
+}
+
+.container-contato {
+  color: white;
+  margin-top: 2.875em;
+}
+
+.container-contato h3 {
+  font-size: 2.25em;
+}
+
+.container-contato p {
+  font-size: 1.5em;
+}
+
+/* Media Queries */
+@media (max-width: 620px) {
+  div.content-container div.containerImgs button{
+    width:100%;
+  }
+  .container-bebidas .item-bebida button{
+    width: 50%;
+  }
+}
